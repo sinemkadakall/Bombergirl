@@ -3790,6 +3790,7 @@ GameObject:
   - component: {fileID: 1546989719}
   - component: {fileID: 1546989718}
   - component: {fileID: 1546989717}
+  - component: {fileID: 1546989721}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -3815,6 +3816,10 @@ MonoBehaviour:
   inputDown: 115
   inputLeft: 97
   inputRight: 100
+  spriteRendererUp: {fileID: 1373445734}
+  spriteRendererDown: {fileID: 605629415}
+  spriteRendererLeft: {fileID: 1482073093}
+  spriteRendererRight: {fileID: 580820239}
 --- !u!58 &1546989718
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -3896,6 +3901,18 @@ Transform:
   - {fileID: 580820237}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1546989721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1546989716}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bb11633d87ce61449bab0b34802b648, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
